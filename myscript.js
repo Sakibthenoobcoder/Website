@@ -24,7 +24,7 @@ function changeImg(){
 setTimeout("changeImg()", time)
 }
 
-changeImg();
+window.onload = changeImg;
 
 
 
